@@ -18,7 +18,7 @@ manifest:
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
       remote: tokyo2006                          # <---
-      revision: micro_spi2  
+      revision: main  
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
