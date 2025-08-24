@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -16,11 +18,15 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
-      revision: micro_spi2  
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: main
+    # - name: nice-view-gem #new entry
+    #   remote: m165437 #new entry
+    #   revision: main #new entry
+
+    # - name: prospector-zmk-module                 # <--- and these
+    #   remote: tokyo2006                          # <---
+    #   revision: micro_spi2  
+    # - name: zmk-dongle-display
+    #   remote: englmaxi
+    #   revision: main
   self:
     path: config
